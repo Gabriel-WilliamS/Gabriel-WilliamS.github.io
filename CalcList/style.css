@@ -1,0 +1,169 @@
+body {
+    background: url(images/fundo.png),
+                linear-gradient(50deg, #686868, #000000);
+    background-attachment: fixed;
+    transition: 1s;
+}
+
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/*
+Menu
+*/
+
+#iconeCalc {
+    margin-left: 6px;
+    color: rgb(255, 238, 0);
+}
+
+.calc{
+    color: #00aa9e;
+    font-family: 'Solway', serif;
+    font-weight: 700;
+}
+
+.lista{
+    color: white;
+    font-family: 'Solway', serif;
+}
+
+nav.navbar-transparente {
+    padding: 15px 0;
+    background: rgba(0,0,0,0.6);
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    transition: background 0.4s, color 0.4s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #eeff00;
+    background: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    transition: background 0.5s, color 0.5s;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+    outline: none;
+}
+
+/*
+Slides
+*/
+
+.capa {
+    text-align: center;
+    color: white;
+    font-family: 'Solway', serif;
+    font-weight: 800;
+    font-size: 2000px;
+}
+
+.servicos {
+    background: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 1s;
+}
+
+.dark-mode{
+    background: #000000bd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dark-mode-body{
+    background: 
+                url(images/fundo.png),
+                linear-gradient(50deg, #000000, #000000);
+    background-attachment: fixed;
+    
+}
+
+.dark-mode-imc p{
+    color: white;
+}
+
+.servicos h2, h3 {
+    color: #00aa9e;
+    font-family: 'Solway', serif;
+    font-weight: 700;
+}
+
+
+/*
+Calculadora
+*/
+
+.calculadora {
+    margin-top: 40px;
+    border: solid 1px #000;
+    padding: 20px;
+    background-color: #2E2E2E;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #000;
+  }
+
+  .btn-cal {
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px #000;
+  }
+
+  .clear {
+    width: 130px;
+  }
+
+  .enter {
+    height: 110px;
+  }
+
+  .zero {
+    width: 130px;
+  }
+
+  .resultado {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: solid 1px #000;
+    box-shadow: 1px 1px 1px #000;
+  }
+
+  .btncalculadora button {
+      color: #ccc;
+      font-weight: bold !important;
+  }
+
+  /*
+IMC
+*/
+
+#teste{
+    background-color: black;
+}
+
+
+  footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
