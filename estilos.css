@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background:linear-gradient(50deg, #d9ff00, #fce300 , #ffc400);
     background-attachment: fixed;
@@ -43,4 +44,51 @@ footer ul li {
 
 /*font-family: 'Jockey One', sans-serif;
 font-family: 'Jura', sans-serif;
+=======
+body {
+    background:linear-gradient(50deg, #d9ff00, #fce300 , #ffc400);
+    background-attachment: fixed;
+    
+}
+
+.card-header{
+    font-family: 'Jockey One', sans-serif;
+}
+
+h5{
+    font-family: 'Jockey One', sans-serif;
+}
+
+.conteudos p{
+    font-family: 'Jura', sans-serif;
+}
+
+.menu{
+    background-color: #000000ce;
+    color: white;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+
+/*font-family: 'Jockey One', sans-serif;
+font-family: 'Jura', sans-serif;
+>>>>>>> 0f17eac4f4d072ae79e471dbfc52e83d8569034d
 font-family: 'Press Start 2P', cursive;
