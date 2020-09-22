@@ -127,30 +127,32 @@
             <div class="container">
               <div class="row">
                 <div class="col">
-                  
                     <div class="row d-flex justify-content-center">
-                      <div class="col-6 col-m-5 " >
+                      <div class="col-sm-6 " >
                         <p>Altura (ex.: 1,70) :</p>
                         <input type="number" class="form-control" placeholder="Metros" id="altura">
                       </div>
                     </div>
                     <div class="row d-flex justify-content-center">
-                       <div class="col-6 col-m-5 mt-2">
+                       <div class="col-sm-6 mt-2">
                           <p>Peso (ex.: 69,2) :</p>
                           <input type="number" class="form-control" placeholder="Quilos" id="peso">
                        </div>
                     </div>
                     <div class="row d-flex justify-content-center">
-                      <div class="col-6 col-m-5 mt-2">
+                      <div class="col-sm-6 mt-2">
                          <p>Resultado:</p>
                          <input type="text" class="form-control" placeholder="Resultado" id="resultado-imc" disabled="disabled" >
                       </div>
                     </div>
-                    <div class="row d-flex justify-content-center">
-                      <button onclick="calcularImc()" type="submit" class="btn btn-dark col-2 mr-5 mt-3" id="calcular-imc">Calcular</button>
-                      <button onclick="limparCampoImc()" type="submit" class="btn btn-dark col-2 ml-5 mt-3" id="limpar-imc" >Limpar</button>   
+                    <div class="row justify-content-center">
+                      <div class="col-2 mr-5 mt-2">
+                        <button onclick="calcularImc()" type="submit" class="btn btn-dark" id="calcular-imc">Calcular</button>
+                      </div>
+                      <div class="col-1 ml-5 mt-2"> 
+                        <button onclick="limparCampoImc()" type="submit" class="btn btn-dark" id="limpar-imc" >Limpar</button> 
+                      </div>    
                     </div>
-                
                 </div>
               </div>
             </div>
