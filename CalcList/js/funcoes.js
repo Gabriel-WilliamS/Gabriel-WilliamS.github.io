@@ -12,8 +12,8 @@ function lightMode() {
   document.querySelector(".entradas0").classList.toggle("bg-dark");
   document.querySelector(".entradas1").classList.toggle("bg-dark");
   document.querySelector(".entradas2").classList.toggle("bg-dark");
-  document.querySelector(".entradas0").classList.toggle("dark-mode-color-entradas");
-  document.querySelector(".entradas1").classList.toggle("dark-mode-color-entradas");
-  document.querySelector(".entradas2").classList.toggle("dark-mode-color-entradas");
+  document.querySelector(".entradas0").classList.toggle("text-white");
+  document.querySelector(".entradas1").classList.toggle("text-white");
+  document.querySelector(".entradas2").classList.toggle("text-white");
 
 }
