@@ -1,6 +1,6 @@
 body {
     background: url(images/fundo.png),
-                linear-gradient(50deg, #686868, #000000);
+                linear-gradient(50deg, #686868, #000000); 
     background-attachment: fixed;
     transition: 1s;
 }
@@ -76,6 +76,10 @@ Slides
     background: #000000bd;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: white;
+}
+.dark-mode-color-entradas{
+ color:white;
 }
 
 .dark-mode-body{
