@@ -126,7 +126,8 @@
           <h2>Medir IMC</h2>
             <div class="container">
               <div class="row">
-                <div class="col">
+                <div class="col ">
+                    <p><a class="links" href="https://people.maths.ox.ac.uk/trefethen/bmi.html">Cálculo Usado</a></p>
                     <div class="row d-flex justify-content-center">
                       <div class="col-sm-6 " >
                         <p>Altura (ex.: 1,70) :</p>
@@ -152,6 +153,44 @@
                       <div class="col-1 ml-5 mt-2"> 
                         <button onclick="limparCampoImc()" type="submit" class="btn btn-dark" id="limpar-imc" >Limpar</button> 
                       </div>    
+                    </div>
+                    <div class="row justify-content-center"> 
+                      <table class=" table mt-3 tabela-imc" >
+                        <thead>
+                          <tr>
+                            <th scope="col">IMC</th>
+                            <th scope="col">Classificação</th>
+                            <th scope="col">Obesidade(Grau)</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="tr-0">
+                            <td>MENOR QUE 18,5</td>
+                            <td>MMAGREZA</td>
+                            <td>0</td>
+                          </tr>
+                          <tr class="tr-1">
+                            <td>ENTRE 18,5 E 24,9</td>
+                            <td>NORMAL</td>
+                            <td>0</td>
+                          </tr>
+                          <tr class="tr-2">
+                            <td>ENTRE 25,0 E 29,9</td>
+                            <td>SOBREPESO</td>
+                            <td>I</td>
+                          </tr>
+                          <tr class="tr-3">
+                            <td>ENTRE 30,0 E 39,9</td>
+                            <td>OBESIDADE</td>
+                            <td>II</td>
+                          </tr>
+                          <tr class="tr-4">
+                            <td>MAIOR QUE 40,0</td>
+                            <td>OBESIDADE GRAVE</td>
+                            <td>III</td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                 </div>
               </div>

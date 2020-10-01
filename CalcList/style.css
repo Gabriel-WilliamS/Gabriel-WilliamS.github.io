@@ -87,14 +87,19 @@ Slides
     
 }
 
-.dark-mode-imc p{
+.dark-mode-letras{
     color: white;
+}
+
+.dark-mode-letras:hover{
+    color: rgb(243, 119, 30);
 }
 
 .servicos h2, h3 {
     color: #00aa9e;
     font-family: 'Solway', serif;
     font-weight: 700;
+   
 }
 
 
@@ -137,12 +142,15 @@ Calculadora
     margin-bottom: 20px;
     border: solid 1px #000;
     box-shadow: 1px 1px 1px #000;
+
   }
+ 
 
   .btncalculadora button {
       color: #ccc;
       font-weight: bold !important;
   }
+
 
   /*
 IMC
@@ -152,6 +160,13 @@ IMC
     background-color: black;
 }
 
+.tabela-imc{
+    max-width: 500px;
+}
+
+.imc-table{
+    background-color: chocolate;
+}
 
   footer {
     background: #000;
@@ -169,3 +184,6 @@ footer ul li {
     margin: 0 5px;
 
 }
+
+
+
