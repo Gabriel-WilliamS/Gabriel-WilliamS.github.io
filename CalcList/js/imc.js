@@ -73,5 +73,10 @@ function limparCampoImc(){
     document.getElementById('resultado-imc').value = '';
     document.getElementById('altura').value = '';
     document.getElementById('peso').value = '';
+    document.querySelector(".tr-4").classList.remove("imc-table");
+    document.querySelector(".tr-1").classList.remove("imc-table");
+    document.querySelector(".tr-2").classList.remove("imc-table");
+    document.querySelector(".tr-3").classList.remove("imc-table");
+    document.querySelector(".tr-0").classList.remove("imc-table");
 }
 
