@@ -25,6 +25,20 @@
                
             }
         });
+
+        $.ajax({
+            type: "POST",
+            dataType: "JSON",
+            url: "teste.json",
+            success: function(data) {
+              
+                data["USUARIO"]["nome"] = "Joao";
+
+                document.write("Nome: " + data["USUARIO"]["nome"] + "<br>");
+
+               
+            }
+        });
     </script>
 </body>
 </html>
