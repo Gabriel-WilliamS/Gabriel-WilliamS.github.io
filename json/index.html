@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API - Cotação do Dólar</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="JSON" href="teste.json">
+</head>
+<body>
+    <script>
+        $.ajax({
+            type: "GET",
+            dataType: "JSON",
+            url: "teste.json",
+            success: function(data) {
+                document.write("Código: " + data["USUARIO"]["id"] + "<br>");
+                document.write("Nome: " + data["USUARIO"]["nome"] + "<br>");
+                document.write("Compra: " + data["USUARIO"]["idade"] + "<br>");
+               
+            }
+        });
+    </script>
+</body>
+</html>
