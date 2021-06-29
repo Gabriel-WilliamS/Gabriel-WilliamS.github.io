@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: gta;
+  src: url(Retromark\ Script-UNICODE-Dafont.otf);
+}
+h1,
+h2 {
+  font-family: gta;
+  font-size: 50px;
+  color: rgb(244, 86, 202);
+  text-shadow: 0px 0px 10px rgb(29, 0, 26);
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("background.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.campos input {
+  padding-left: 10px;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.box {
+  width: 800px;
+  height: 500px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(112, 24, 116, 0.384);
+  border-radius: 20px;
+}
+
+.campos {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(7, 7, 7, 0.692);
+  width: 350px;
+  justify-content: space-evenly;
+  color: white;
+  border-radius: 20px;
+}
+.radios {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  align-items: center;
+}
+.radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.radio input {
+  margin-right: 5px;
+}
+
+.valores-de-taixa {
+  border-radius: 20px;
+  width: 350px;
+  padding: 30px;
+  color: white;
+  background-color: rgba(7, 7, 7, 0.692);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

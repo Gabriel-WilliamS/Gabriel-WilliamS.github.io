@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <title>Lavagem Vanilla - Cidade Verão SP</title>
+
+      <h1>Lavagem Vanilla</h1>
+      <h2>Cidade Verão SP</h2>
+
+      <div class="box">
+        <div class="campos">
+          <label for="dinheiro-lavado"
+            >Quantidade de dinheiro a ser lavado:
+          </label>
+          <input type="number" id="dinheiro-lavado" />
+          <label for="dinheiro-cliente">Dinheiro do cliente: </label>
+          <input
+            type="number"
+            id="dinheiro-cliente"
+            class="colorWhite"
+            disabled
+          />
+          <label for="seu-lucro">Lucro Total: </label>
+          <input type="number" id="lucro-total" class="colorWhite" disabled />
+          <label for="seu-lucro">Seu lucro: </label>
+          <input type="number" id="seu-lucro" class="colorWhite" disabled />
+          <label for="lucro-vanilla">Lucro Vanilla: </label>
+          <input type="number" id="lucro-vanilla" class="colorWhite" disabled />
+          <div class="radios">
+            <div class="radio">
+              <input type="radio" name="valor" id="acima500" /><span
+                >Acima de R$500.000</span
+              >
+            </div>
+            <div class="radio">
+              <input type="radio" name="valor" id="abaixo500" checked />
+              <span>Abaixo de R$500.000</span>
+            </div>
+          </div>
+
+          <input
+            type="button"
+            value="Lavar Dinheiro"
+            id="calcular-lavagem"
+            onclick="lavagem()"
+          />
+        </div>
+
+        <div class="valores-de-taixa">
+          <h3>Taxas</h3>
+          <ul>
+            <li>Acima de R$500.000 taxa de 25%</li>
+            <li>Abaixo de R$500.000 taxa de 30%</li>
+          </ul>
+          <h3>Distribuição de Lucro</h3>
+          <ul>
+            <li>Vanilla : 60%</li>
+            <li>Membro : 40%</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
