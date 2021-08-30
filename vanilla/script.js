@@ -1,6 +1,7 @@
 function lavagem() {
-  const acima500 = document.getElementById("acima500").checked;
-  const abaixo500 = document.getElementById("abaixo500").checked;
+  const taxa25 = document.getElementById("taxa25").checked;
+  const taxa30 = document.getElementById("taxa30").checked;
+  const taxa35 = document.getElementById("taxa35").checked;
   const dinheiroLavado = parseInt(
     document.getElementById("dinheiro-lavado").value
   );
@@ -10,17 +11,26 @@ function lavagem() {
   const lucroTotal = document.getElementById("lucro-total");
 
   let lucro = 0;
-  if (acima500) {
-    dinheiroCliente.value = (dinheiroLavado * 75) / 100;
-    lucroTotal.value = (dinheiroLavado * 25) / 100;
-    lucro = (dinheiroLavado * 25) / 100;
+  const taxacity = (dinheiroLavado * 90) / 100;
+
+  if (taxa25) {
+    dinheiroCliente.value = (taxacity * 85) / 100;
+    lucroTotal.value = (taxacity * 15) / 100;
+    lucro = (taxacity * 15) / 100;
     seuLucro.value = (lucro * 40) / 100;
     lucroVanilla.value = (lucro * 60) / 100;
   }
-  if (abaixo500) {
-    dinheiroCliente.value = (dinheiroLavado * 70) / 100;
-    lucroTotal.value = (dinheiroLavado * 30) / 100;
-    lucro = (dinheiroLavado * 30) / 100;
+  if (taxa30) {
+    dinheiroCliente.value = (taxacity * 80) / 100;
+    lucroTotal.value = (taxacity * 20) / 100;
+    lucro = (taxacity * 20) / 100;
+    seuLucro.value = (lucro * 40) / 100;
+    lucroVanilla.value = (lucro * 60) / 100;
+  }
+  if (taxa35) {
+    dinheiroCliente.value = (taxacity * 75) / 100;
+    lucroTotal.value = (taxacity * 25) / 100;
+    lucro = (taxacity * 25) / 100;
     seuLucro.value = (lucro * 40) / 100;
     lucroVanilla.value = (lucro * 60) / 100;
   }
